@@ -36,13 +36,8 @@ export default {
     ie: 9,
   },
   theme: {
-    '@primary-color': '#5182e4', // 全局主色
-    '@link-color': 'rgba(10, 18, 32, 0.64)', // 链接色
-    '@text-color': 'rgba(10, 18, 32, 0.64)', // 主文本色
-    '@text-color-secondary': 'rgba(10, 18, 32, 0.44)', // 次文本色
-    '@disabled-color': 'rgba(10, 18, 32, 0.24)', // 失效色
-    '@border-radius-base': '2px', // 组件/浮层圆角
-    '@table-padding-vertical': '10px', // 表格垂直内距
-    '@table-padding-horizontal': '12px', // 表格水平内距
+    '@border-radius-base': '2px',
+    '@table-padding-vertical': '10px',
+    '@table-padding-horizontal': '12px',
   },
 };
