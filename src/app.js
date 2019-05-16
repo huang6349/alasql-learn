@@ -1,4 +1,4 @@
-import { onError } from './app.onerror';
+import onError from './app.onerror';
 
 export const dva = {
   config: {

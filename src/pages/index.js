@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-function IndexPage() {
+const IndexPage = () => {
   return <React.Fragment />;
-}
+};
 
 export default IndexPage;

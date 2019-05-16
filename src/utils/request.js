@@ -4,7 +4,7 @@ import 'nprogress/nprogress.css';
 
 NProgress.configure({ showSpinner: false });
 
-export default function request(url, options = {}) {
+const request = (url, options = {}) => {
   NProgress.start();
 
   options.headers = options.headers || {};
@@ -34,4 +34,6 @@ export default function request(url, options = {}) {
     .finally(() => {
       NProgress.done();
     });
-}
+};
+
+export default request;

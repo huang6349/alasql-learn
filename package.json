@@ -17,6 +17,7 @@
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "nprogress": "^0.2.0",
+    "prop-types": "^15.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-use": "^9.0.0",
