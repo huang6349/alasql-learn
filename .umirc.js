@@ -40,4 +40,10 @@ export default {
     '@table-padding-vertical': '10px',
     '@table-padding-horizontal': '12px',
   },
+  extraBabelPlugins: [
+    [
+      'import',
+      { libraryName: 'react-use', libraryDirectory: 'lib', camel2DashComponentName: false },
+    ],
+  ],
 };
