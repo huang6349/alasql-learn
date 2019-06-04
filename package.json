@@ -9,6 +9,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
+    "alasql": "^0.4.11",
     "antd": "^3.18.1",
     "dva": "^2.4.1",
     "dva-core": "^1.4.0",
